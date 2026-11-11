@@ -40,8 +40,8 @@ try:
 except ImportError:
     pass
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "9208515878:AAGee5Nc4SKpe8Pz9s8InyipfzaUTdCc8bE")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "1693248265"))  # ваш Telegram ID — сюда приходят заказы
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))  # ваш Telegram ID — сюда приходят заказы
 DB_PATH = os.getenv("DB_PATH", "bot.db")
 
 # Платные услуги. Цена — в Telegram Stars (⭐).
